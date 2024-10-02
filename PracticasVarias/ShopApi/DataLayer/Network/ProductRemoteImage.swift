@@ -24,7 +24,7 @@ struct ProductRemoteImage: View {
                 ProgressView()
             }
         }
-        .frame(width: 100, height: 100) // Ajusta el tamaño según tu diseño
+        .frame(width: 100, height: 100) 
     }
 }
 

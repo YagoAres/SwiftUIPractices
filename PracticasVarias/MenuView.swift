@@ -10,7 +10,9 @@ struct MenuView: View {
                 NavigationLink(destination: Home()){
                     Text("API Testing/shop")
                 }
-                Text("App 3")
+                NavigationLink(destination: FavPlaces()){
+                    Text("Fav Places")
+                }
                 Text("App 4")
                 Text("App 5")
             }
